@@ -35,9 +35,9 @@ const SocialIcons = (props) => {
     <Icons>
 
         <div>
-            <a style={{color: 'inherit'}} target="_blank"  href = "https://github.com/AliDavoodi98">
+            <NavLink style={{color: 'inherit'}} target="_blank"  to = {{pathname: "https://github.com/AliDavoodi98"}}>
                 <FaGithub size={25} fill={props.theme==='dark' ? darkTheme.text :darkTheme.body }/>
-            </a>
+            </NavLink>
         </div>
         <div>
             <NavLink style={{color: 'inherit'}} target="_blank" to={{pathname: "https://www.linkedin.com/in/ali-davoodi-moghadam"}}>
