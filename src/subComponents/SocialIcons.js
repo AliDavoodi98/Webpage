@@ -11,7 +11,7 @@ import {darkTheme} from '../components/Themes'
 const Icons = styled.div`
 display: flex;
 flex-direction: column;
-align-items; center;
+align-items: center;
 
 position: fixed;
 bottom: 0;
