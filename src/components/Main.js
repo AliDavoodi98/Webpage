@@ -147,7 +147,8 @@ const Main = () => {
             <span>click</span>
           </Center>
 
-          <Contact target="_blank" to={{pathname: "mailto:alidavid797@gmail.com"}}>
+          <Contact  to='#' 
+      onClick={() => window.location = 'mailto:email@gmail.com'}>
             <motion.h2
             whileHover={{scale:1.1}}
             whileTap={{scale:0.9}}
@@ -156,15 +157,6 @@ const Main = () => {
             </motion.h2>
   </Contact>
 
-          <a href='mailto:alidavid797@gmail.com'>
-          <motion.h2
-            whileHover={{scale:1.1}}
-            whileTap={{scale:0.9}}
-            >
-              Say Hi
-            </motion.h2>
-
-          </a>
 
           <BLOG to="/projects">
           <motion.h2
