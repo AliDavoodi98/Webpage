@@ -38,24 +38,33 @@ const SocialIcons = (props) => {
           {/*  <NavLink style={{color: 'inherit'}} target="_blank"  to={{pathname: "https://github.com/AliDavoodi98"}}>
                 <FaGithub size={25} fill={props.theme==='dark' ? darkTheme.text :darkTheme.body }/>
             </NavLink>*/}
-            <a href="https://github.com/AliDavoodi98" >
+            <a  target="_blank" href="https://github.com/AliDavoodi98" >
              <FaGithub size={25} fill={props.theme==='dark' ? darkTheme.text :darkTheme.body }/>
             </a>
         </div>
         <div>
-            <NavLink style={{color: 'inherit'}} target="_blank" to={{pathname: "https://www.linkedin.com/in/ali-davoodi-moghadam"}}>
+           {/* <NavLink style={{color: 'inherit'}} target="_blank" to={{pathname: "https://www.linkedin.com/in/ali-davoodi-moghadam"}}>
                 <BsLinkedin size={25} fill={props.theme==='dark' ? darkTheme.text :darkTheme.body }/>
-            </NavLink>
+            </NavLink> */}
+            <a target="_blank" href='https://www.linkedin.com/in/ali-davoodi-moghadam' >
+               <BsLinkedin size={25} fill={props.theme==='dark' ? darkTheme.text :darkTheme.body }/>
+            </a>
         </div>
         <div>
-            <NavLink style={{color: 'inherit'}} target="_blank" to={{pathname: 'https://www.instagram.com/ali._.david/'}}>
+            {/*<NavLink style={{color: 'inherit'}} target="_blank" to={{pathname: 'https://www.instagram.com/ali._.david/'}}>
                 <BsInstagram size={25} fill={props.theme==='dark' ? darkTheme.text :darkTheme.body }/>
-            </NavLink>
+            </NavLink>*/}
+            <a target='_blank' href='https://www.instagram.com/ali._.david/'>
+               <BsInstagram size={25} fill={props.theme==='dark' ? darkTheme.text :darkTheme.body }/>
+            </a>
         </div>
         <div>
-            <NavLink style={{color: 'inherit'}} target="_blank" to={{pathname: "https://www.linkedin.com/in/ali-davoodi-moghadam"}}>
+        {/*    <NavLink style={{color: 'inherit'}} target="_blank" to={{pathname: "https://www.linkedin.com/in/ali-davoodi-moghadam"}}>
                 <BsTwitter  size={25} fill={props.theme==='dark' ? darkTheme.text :darkTheme.body }/>
-            </NavLink>
+            </NavLink>*/}
+            <a target='_blank' href='https://www.linkedin.com/in/ali-davoodi-moghadam'>
+               <BsTwitter  size={25} fill={props.theme==='dark' ? darkTheme.text :darkTheme.body }/>
+            </a>
         </div>
 
         <Line color={props.theme}/>
